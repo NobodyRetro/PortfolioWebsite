@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Amaro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>            
+     <header>
+        <nav>  
+           <img src="PNG-Transparent.png" alt="StarBlock" class="logo">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Bio</a>
+                </li>     
+                <div class="wrapper">
+
+                    <div class="button">
+                       <div class="icon"><a href="https://www.linkedin.com/in/aaron-amaro-1b8005270/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                       </div>
+                       <span>LinkedIn</span></a>
+                    </div>
+            
+                    <div class="button">
+                        <div class="icon"><a href="https://github.com/NobodyRetro?tab=repositories" target="_blank">
+                 
+                         <i class="fa-brands fa-github"></i>
+                        </div>
+                        <span>GitHub</span></a>
+                     </div> 
+
+                     <div class="button">
+                        <div class="icon"><a href="https://www.instagram.com/kn0wb0dy_/" target="_blank">
+                           <i class="fab fa-instagram" ></i>
+                        </div>
+                        <span>Instagram</span></a>
+                     </div>     
+            </ul>
+        </nav>
+    </header>
+
+    <main>    
+        <div class="vignette"></div>
+        <img src="websiteBackground.png" data-speedx="0.025" data-speedy="0.15" class="parallax bg-layer">
+        <img src="websiteSnowMountain.png" data-speedx="0.035" data-speedy="0.10" class="parallax snm-layer">
+        <div class="text parallax" data-speedx="0.007" data-speedy="0.007">
+            <h2>Aaron Amaro</h2>
+            <h1>lets work together</h1>       
+            <div class="container parallax">
+                <button onclick="location.href='Aaron Amaro Resume 2023.docx'" class="btn btn1">RESUME</button>
+                <button class="btn btn1">CONTACT ME</button>
+            </div>    
+        </div>  
+        <img src="websiteSmallMountain.png" data-speedx="0.045" data-speedy="0.05" class="parallax sm-layer">
+        <img src="websiteLargeMountain.png" data-speedx="0.055" data-speedy="0.01" class="parallax lm-layer">
+        
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.1/dist/gsap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
